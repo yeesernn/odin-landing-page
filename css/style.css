@@ -25,4 +25,12 @@
 .headerLinks {
     display: flex;
     justify-content: space-between;
+    background-color: yellow;
+    gap: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
