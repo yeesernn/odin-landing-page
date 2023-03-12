@@ -12,6 +12,14 @@
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: red;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    background-image: url(../img/pexels-magda-ehlers-4116637.jpg);
+    background-size: contain;
 }
 
 .headerLinks {
