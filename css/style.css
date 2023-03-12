@@ -32,6 +32,7 @@
     justify-content: space-between;
     /* background-color: yellow; */
     align-items: center;
+    gap: 20px;
 }
 
 a {
@@ -44,14 +45,16 @@ a {
     justify-content: space-between;
 }
 
-/* .heroContainer {
-    display: flex;
-    flex-direction: column;
-} */
+.heroContainer {
+    /* display: flex;
+    flex-direction: column; */
+    flex: 1;
+}
 
 .heroImg {
     background-image: url(../img/pexels-luis-del-río-15286.jpg);
     background-size: cover;
-    width: 400px;
-    height: 350px;
+    /* width: 400px;
+    height: 350px; */
+    flex: 1;
 }
