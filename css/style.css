@@ -7,12 +7,14 @@
 .sectionOne {
     background-color: #1F2937;
     color: white;
+    display: flex;
     flex-direction: column;
+    gap: 100px;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* background-color: red; */
 }
 
@@ -41,6 +43,14 @@ a {
     justify-content: space-between;
 }
 
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .heroImg {
     background-image: url(../img/pexels-luis-del-río-15286.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 350px;
 }
