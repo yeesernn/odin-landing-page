@@ -12,7 +12,7 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .logo {
@@ -25,7 +25,7 @@
 .headerLinks {
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
+    /* background-color: yellow; */
     gap: 20px;
     align-items: center;
 }
@@ -33,4 +33,9 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.containerOne {
+    display: flex;
+    justify-content: space-between;
 }
