@@ -12,21 +12,24 @@
     flex-direction: column;
     gap: 100px;
     padding: 0px 200px;
+    height: 500px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 
-/* .headerLogo {
-    width: 250px;
+.headerLogo {
+    /* width: 250px;
     height: 150px;
     background-image: url(../img/pexels-magda-ehlers-4116637.jpg);
-    background-size: cover;
-} */
+    background-size: cover; */
+    font-weight: 700;
+    font-size: 24px;
+}
 
 .headerLinks {
     display: flex;
@@ -39,6 +42,7 @@
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 .containerOne {
@@ -50,6 +54,17 @@ a {
     /* display: flex;
     flex-direction: column; */
     flex: 1;
+    padding: 0px 20px 0px 0px;
+}
+
+.heroContainer h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.heroContainer p {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .heroImg {
@@ -58,4 +73,15 @@ a {
     /* width: 400px;
     height: 350px; */
     flex: 1;
+}
+
+.heroContainer button {
+    border: none;
+    background-color: #3882F6;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
 }
