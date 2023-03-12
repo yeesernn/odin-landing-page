@@ -11,4 +11,10 @@
 
 .header {
     display: flex;
+    justify-content: space-around;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-between;
 }
