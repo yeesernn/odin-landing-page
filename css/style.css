@@ -39,3 +39,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.heroImg {
+    background-image: url(../img/pexels-luis-del-río-15286.jpg);
+}
