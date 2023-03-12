@@ -19,12 +19,12 @@
     /* background-color: red; */
 }
 
-.logo {
+/* .headerLogo {
     width: 250px;
     height: 150px;
     background-image: url(../img/pexels-magda-ehlers-4116637.jpg);
     background-size: cover;
-}
+} */
 
 .headerLinks {
     display: flex;
