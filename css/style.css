@@ -127,3 +127,28 @@ a {
     font-size: 18px;
     font-weight: 300;
 }
+
+/* Section QUOTE */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote h3 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px 320px 0px 320px;
+}
+
+.quote div {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 24px;
+    margin-right: 350px;
+}
